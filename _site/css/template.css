@@ -4,6 +4,7 @@ body {
 
 }
 a{color:#ffff99;}
+a:hover{color:#fff;}
 
 .cimage{
 
@@ -19,7 +20,7 @@ a{color:#ffff99;}
 	border-color: #001333;
 }
 
-
+h1{color:#FFC847;}
 
 .logo{
 
