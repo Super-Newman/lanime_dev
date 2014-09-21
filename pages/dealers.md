@@ -21,4 +21,4 @@ Yuki Pearl
 Dealers for 2015:
 In the coming months we will be announcing dealers for LouisiANIME 2015.
 
-If you are interested in being a vendor in the LouisiANIME dealers’ room, please email us at <a href="mailto:vendors@louisianime.com">mailto:vendors@louisianime.com</a> for availability information.
+If you are interested in being a vendor in the LouisiANIME dealers’ room, please email us at <a href="mailto:vendors@louisianime.com">vendors@louisianime.com</a> for availability information.
