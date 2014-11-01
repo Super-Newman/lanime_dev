@@ -1,11 +1,11 @@
 # Site settings
 title: Louisianime
-email: your-email@domain.com
+email: admin@louisianime.com
 description: "Louisianime convention."
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.louisianime.com/"
+twitter_username: louisianime
+
 
 
 # Build settings
