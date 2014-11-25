@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A whole new year!"
+title:  "A Whole New Year!"
 date:   2014-08-01 08:00:00
 
 ---
