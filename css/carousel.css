@@ -68,7 +68,22 @@ body {
 
 }
 
+.carousel-inner > .item > a > img {
+  /*position:absolute;
+  left:0;
+  top:0;*/
+  margin-left: auto;
+  margin-right:auto;
+  min-width:768px;
+  height: 500px;
 
+}
+
+.ad{
+
+  
+  background-color:#fff;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -92,9 +107,7 @@ body {
   margin-left: 10px;
 }
 
-.btn-crunchyroll{
-  color:#f78b24;
-}
+
 
 /* Featurettes
 ------------------------- */
@@ -156,6 +169,8 @@ body {
    #myCarousel{
     display:block;
   }
+
+  .ad{display: none;}
 
   h1, .h1, h2, .h2, h3, .h3 {margin-top:0px};
 }
