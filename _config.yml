@@ -8,8 +8,10 @@ twitter_username: louisianime
 
 
 
+
 # Build settings
 markdown: kramdown
 permalink: pretty
+highlighter: rouge
 
 #paginate_path: "news/page:num"

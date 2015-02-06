@@ -35,10 +35,24 @@ a{color:#ffff99;}
 h1{color:#FFC847};
 
 
-@media (min-width: 768px) {
-.news{padding-top: 5%;}
-.page{padding-top: 5%;}
-
+@media (min-width : 360px) {
+.news{padding-top: 15%;}
+.page{padding-top: 15%;}
 }
 
+@media (min-width : 480px) {
+.news{padding-top: 13%;}
+.page{padding-top: 13%;}
+}
+
+
+@media (min-width: 768px) {
+.news{padding-top: 8%;}
+.page{padding-top: 6%;}
+}
+
+@media (min-width: 1024px) {
+.news{padding-top: 5%;}
+.page{padding-top: 5%;}
+}
 
