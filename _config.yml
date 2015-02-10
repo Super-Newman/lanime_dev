@@ -13,5 +13,6 @@ twitter_username: louisianime
 markdown: kramdown
 permalink: pretty
 highlighter: rouge
+encoding: utf-8
 
 #paginate_path: "news/page:num"

@@ -41,7 +41,7 @@ date:   2015-02-05 08:00:00
 <p>The friendly and helpful staff will help make this already incredible event space into the best LouisiANIME so far. We are really looking forward to seeing all of you for LouisiANIME 2015. So go ahead and get your pre-registration passes and call up the hotel and reserve your rooms! One lucky attendee will have their room upgraded for free to a suite, reserve your room by April 5th to be eligible.</p>
 
 <h3>Buy LouisiANIME 2015 Badges:</h3>
-<iframe id='ezframe' width='100%' scrolling='auto' height="350" frameborder='0' allowtransparency='true' hspace='0' vspace='0' marginheight='5' marginwidth='5' src='http://www.eventzilla.net/web/event_ext.aspx?EventID=2139037582' name='ezframe'></iframe>
+<div style='width:100%; text-align:left;'><iframe id='ezframe' width='100%' scrolling='auto' height="350" frameborder='0' allowtransparency='true' hspace='0' vspace='0' marginheight='5' marginwidth='5' src='http://www.eventzilla.net/web/event_ext.aspx?EventID=2139037582' name='ezframe'></iframe></div>
 
 <h3>Reserve Your Room at the Hotel:</h3>
 <p>2032 NE Evangeline Thruway, Lafayette, LA 70501 Phone:(337) 233-6815 Fax: 337-593-8746<p>
