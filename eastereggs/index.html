@@ -1,0 +1,140 @@
+---
+layout: page
+permalink: /eastereggs/
+---
+<style>
+table {
+	width: 250px;
+}
+</style>
+
+	<div id="game" align = "middle">
+		<div id="newgame" style="display: block;">
+			<table>
+				<div id="didyouwin" style="display: none; "><tr>
+					<td>
+						<div id="winningstate" align="middle"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div id="winorlose" align="middle"></div>
+					</td>
+				</tr></div>
+				<tr>
+					<td>
+						<button type="button" style="color: black; width=100%" align="middle" onclick="javascript: newgame();">Would You Like To Play A Game?</button>
+					</td>
+				</tr>
+			</table>
+			
+		</div>
+		<div id="activegame" style="display: none;">
+			<table>
+				<tr>
+					<td colspan="2">
+						<div id="gameinfo" align="middle"></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div id="guessesleft" align="middle"></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><input size="30" style="color: black; " type="text" align="middle" id="playerinput" onkeyup="javascript: playerinput(this, event);" /><br />
+						<font style="font-size: 11px; ">Input a letter and press [Enter].</font>
+					</td>
+				</tr>
+				<tr>
+					<td><button style="color: black; width: 100%;" type="button" onclick="javascript: resetGame();">Reset Game</button></td>
+					<td><button style="color: black; width: 100%;" type="button" onclick="javascritp: quitGame();">Quit Game</button></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+<script>
+var gameWord = null;
+var wordDatabase = ["penny", "beautiful", "testing", "sand", "people", "roses", "tulips", "tea", "orchids", "sunshine", "ocean", "flowers", "candy", "hugs", "androids", "electric", "chemistry", "violets", "fiction", "stranger", "serenity"];
+var playerProgress = [];
+var playerTries = 0;
+var successes = 0;
+
+function resetGame(){
+	successes = 0;
+	playerTries = 10;
+	document.getElementById("playerinput").value = "";
+	setWord();
+	displayProgress();
+}
+function quitGame(){
+	resetGame();
+	document.getElementById("didyouwin").style.display = "none";
+	document.getElementById("newgame").style.display = "block";
+	document.getElementById("activegame").style.display = "none";
+
+}
+function setWord(){
+	playerProgress = [];
+	gameWord = null;
+	gameWord = wordDatabase[Math.floor(Math.random()*wordDatabase.length)];
+	document.getElementById("guessesleft").innerHTML = "\<h3\>" + playerTries + " Guesses Remaining" + "\</h3\>";
+	for(var i=0; i < gameWord.length; i++){
+		playerProgress[i] = "_";
+	}
+
+}
+function displayProgress(){
+	document.getElementById("gameinfo").innerHTML = "\<h3\>" + playerProgress.join(" ") + "\</h3\>";
+}
+function newgame(){
+	resetGame();
+	document.getElementById("didyouwin").style.display = "none";
+	document.getElementById("newgame").style.display = "none";
+	document.getElementById("activegame").style.display = "block";
+}
+function endGame(){
+	document.getElementById("winningstate").innerHTML = "\<h2\>" + playerProgress.join(" ") + "\</h2\>";
+	if(successes == gameWord.length){
+		document.getElementById("winorlose").innerHTML = "\<h1\>" + "You Win!" + "\</h1\>";
+	}
+	else {
+		document.getElementById("winorlose").innerHTML = "\<h1\>" + playerTries + " Guesses Remaining!" + "\</h1\>";
+	}
+	document.getElementById("didyouwin").style.display = "block";
+	document.getElementById("newgame").style.display = "block";
+	document.getElementById("activegame").style.display = "none";
+}
+function playerinput(obj, e){
+	if (e.keyCode == 13){
+		var rightorwrong = 0;
+		document.getElementById("guessesleft").innerHTML = "\<h3\>" + playerTries + " Guesses Remaining" + "\</h3\>";
+		for (var i = 0; i < gameWord.length; i++){
+			if (gameWord[i] == obj.value.toLowerCase() && playerProgress[i] != obj.value.toUpperCase()){
+				playerProgress[i] = obj.value.toUpperCase();
+				successes++;
+				rightorwrong = 1;
+			}
+		}
+		if(rightorwrong == 0){
+			playerTries--;
+			document.getElementById("guessesleft").innerHTML = "\<h3\>" + playerTries + " Guesses Remaining" + "\</h3\>";
+		}
+		if(successes == gameWord.length){
+			endGame();
+			return;
+		}
+		if(playerTries == 0){
+			endGame();
+			return;
+		}
+		obj.value = "";
+		displayProgress();
+		return;
+	}
+	else if (obj.value.length > 1){
+		obj.value = obj.value.slice(1);
+	}
+}
+
+</script>
