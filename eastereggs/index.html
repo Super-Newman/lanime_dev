@@ -2,13 +2,10 @@
 layout: page
 permalink: /eastereggs/
 ---
-<style>
-table {
-	width: 250px;
-}
-</style>
 
-	<div id="game" align = "middle">
+
+
+<div id="game" align = "middle">
 		<div id="newgame" style="display: block;">
 			<table>
 				<div id="didyouwin" style="display: none; "><tr>
@@ -23,7 +20,7 @@ table {
 				</tr></div>
 				<tr>
 					<td>
-						<button type="button" style="color: black; width=100%" align="middle" onclick="javascript: newgame();">Would You Like To Play A Game?</button>
+						<button type="button" id="newgamebutton" autofocus="autofocus" style="color: black; width=100%" align="middle" onclick="javascript: newgame();">Would You Like To Play A Game?</button>
 					</td>
 				</tr>
 			</table>
@@ -55,7 +52,7 @@ table {
 	</div>
 <script>
 var gameWord = null;
-var wordDatabase = ["penny", "beautiful", "testing", "sand", "people", "roses", "tulips", "tea", "orchids", "sunshine", "ocean", "flowers", "candy", "hugs", "androids", "electric", "chemistry", "violets", "fiction", "stranger", "serenity"];
+var wordDatabase = ["do androids dream of electric sheep", "penny", "beautiful", "testing", "sand", "people", "roses", "tulips", "tea", "orchids", "sunshine", "ocean", "flowers", "candy", "hugs", "androids", "electric", "chemistry", "violets", "fiction", "stranger", "serenity", "roses are red", "violets are blue", "seeds", "dark city", "beaches", "cthulhu", "better living", "pucrettub","firefly", "paprika", "psycho pass", "cowboy bebop", "jazz", "fight club", "hook", "death note", "spirited away", "akira"];
 var playerProgress = [];
 var playerTries = 0;
 var successes = 0;
@@ -72,7 +69,19 @@ function quitGame(){
 	document.getElementById("didyouwin").style.display = "none";
 	document.getElementById("newgame").style.display = "block";
 	document.getElementById("activegame").style.display = "none";
-
+}
+function generateOutput() {
+	var outputstring = "<h2>";
+	for (var i = 0; i < gameWord.length; i++){
+		if (gameWord[i] == " "){
+			outputstring += "</h2><br /><h2>";
+		}
+		else {
+			outputstring += playerProgress[i] + " ";
+		}
+	}
+	outputstring += "</h2>"
+	return outputstring;
 }
 function setWord(){
 	playerProgress = [];
@@ -81,20 +90,27 @@ function setWord(){
 	document.getElementById("guessesleft").innerHTML = "\<h3\>" + playerTries + " Guesses Remaining" + "\</h3\>";
 	for(var i=0; i < gameWord.length; i++){
 		playerProgress[i] = "_";
+		if(gameWord[i] == " "){
+			playerProgress[i] = " ";
+			successes++;
+		}
 	}
-
+	document.getElementById("playerinput").focus();
 }
 function displayProgress(){
-	document.getElementById("gameinfo").innerHTML = "\<h3\>" + playerProgress.join(" ") + "\</h3\>";
+	var outputstring = generateOutput();
+	document.getElementById("gameinfo").innerHTML = outputstring;
 }
 function newgame(){
 	resetGame();
 	document.getElementById("didyouwin").style.display = "none";
 	document.getElementById("newgame").style.display = "none";
 	document.getElementById("activegame").style.display = "block";
+	document.getElementById("playerinput").focus();
 }
 function endGame(){
-	document.getElementById("winningstate").innerHTML = "\<h2\>" + playerProgress.join(" ") + "\</h2\>";
+	var outputstring = generateOutput();
+	document.getElementById("winningstate").innerHTML = outputstring;
 	if(successes == gameWord.length){
 		document.getElementById("winorlose").innerHTML = "\<h1\>" + "You Win!" + "\</h1\>";
 	}
@@ -104,9 +120,10 @@ function endGame(){
 	document.getElementById("didyouwin").style.display = "block";
 	document.getElementById("newgame").style.display = "block";
 	document.getElementById("activegame").style.display = "none";
+	document.getElementById("newgamebutton").focus();
 }
 function playerinput(obj, e){
-	if (e.keyCode == 13){
+	if (e.keyCode == 13 && obj.value != ""){
 		var rightorwrong = 0;
 		document.getElementById("guessesleft").innerHTML = "\<h3\>" + playerTries + " Guesses Remaining" + "\</h3\>";
 		for (var i = 0; i < gameWord.length; i++){
@@ -138,3 +155,4 @@ function playerinput(obj, e){
 }
 
 </script>
+
