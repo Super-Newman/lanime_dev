@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Rules
+description: Don't be the one who ruins the fun for everyone. Follow the rules so that everyone can have the most fun possible and a safe time all weekend.
 permalink: /rules/
 ---
 

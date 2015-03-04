@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Contact
+title: Contact Us
+description: Contact information for reaching LouisiANIME staff and management.
 permalink: /contacts/
 ---
 

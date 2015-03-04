@@ -2,13 +2,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LouisiANIME</title>
-    <meta name="description" content="{{ site.description }}">
+    <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <meta property="og:title" content="LouisiANIME 2015">
-    <meta property="og:image" content="http://www.louisianime.com/img/Carousel.jpg">
-    <meta property="og:description" content="LouisiANIME convention.">
-    <meta property="og:url" content="http://www.louisianime.com/">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:image" content="{{ site.url}}{% if page.image %}/img/{{ page.image }}{% else %}http://www.louisianime.com/img/Carousel.jpg{% endif %}">
+    <meta property="og:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <!-- Bootstrap -->
     <link href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
 

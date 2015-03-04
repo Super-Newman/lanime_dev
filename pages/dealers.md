@@ -1,11 +1,13 @@
 ---
 layout: page
-title: LouisiANIME Dealers
+title: Dealer's Room Information
+description: Learn about our dealer room, the merchandise you'll find there, and how to contact us if you're interested in becoming a dealer at LouisiANIME 2015.
 permalink: /dealers/
+image: /dealers_room.jpeg
 ---
 
 
-<img src="/img/dealers_room.jpeg" alt="dealers room image" class="img-responsive" style="border:5px solid white;" width="600" height="400"/>
+<img src="/img/dealers_room.jpeg" alt="dealers room image" class="img-responsive" style="border:5px solid white; margin: 10px; float: right" width="600" height="400"/>
 
 At LouisiANIME, we bring together all sorts of vendors who sell quality merchandise such as DVDs, t-shirts, costume props, games, figures.  The dealers room is a fun and convenient place to buy products that cater to fans of pop culture and anime that are not readily available in local stores.  Every year we bring in some new vendors to sell alongside the veteran dealers in order to ensure an ever changing and current line of products assembled for you, the LouisiANIME attendee.
 

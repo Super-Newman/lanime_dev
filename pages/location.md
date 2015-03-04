@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Location
+description: Learn about the Ramada Lafayette Conference Center where we are hosting LouisiANIME 2015. We think you'll love the time you'll have here.
 permalink: /location/
+image: /Louisianime_2015_Promo_03.png
 ---
 
 

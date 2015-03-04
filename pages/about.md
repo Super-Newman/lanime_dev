@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: About Us
+description: Information about the start of LouisiANIME and what you can expect from us reliably every year.
 permalink: /about/
 ---
 

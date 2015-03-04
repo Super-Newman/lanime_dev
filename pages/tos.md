@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Terms of Service
+description: Our complete terms of service, please pay careful attention to this information to ensure that you are educated and informed regarding our policies.
 permalink: /tos/
 ---
 

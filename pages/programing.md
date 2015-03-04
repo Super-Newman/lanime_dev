@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Programming
+description: LouisiANIME hosts a variety of panels and events that will keep you entertained all week. We will have music, dancing, educational panels, crafts, and games.
 permalink: /programming/
+image: /gameshow.jpg
 ---
 
 ##Steampunk Soiree
