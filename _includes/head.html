@@ -6,7 +6,7 @@
     <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:image" content="{{ site.url}}{% if page.image %}/img/{{ page.image }}{% else %}http://www.louisianime.com/img/Carousel.jpg{% endif %}">
+    <meta property="og:image" content="{{ site.url}}{% if page.image %}/img/{{ page.image }}{% else %}/img/Carousel.jpg{% endif %}">
     <meta property="og:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <!-- Bootstrap -->
