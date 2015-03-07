@@ -7,6 +7,12 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:image" content="{{ site.url}}{% if page.image %}/img{{ page.image }}{% else %}/img/Carousel.jpg{% endif %}">
+    {% if page.image1 %}<meta property="og:image" content="{{ site.url}}/img{{ page.image1 }}">{% endif %}
+    {% if page.image2 %}<meta property="og:image" content="{{ site.url}}/img{{ page.image2 }}">{% endif %}
+    {% if page.image3 %}<meta property="og:image" content="{{ site.url}}/img{{ page.image3 }}">{% endif %}
+    {% if page.image4 %}<meta property="og:image" content="{{ site.url}}/img{{ page.image4 }}">{% endif %}
+    {% if page.image5 %}<meta property="og:image" content="{{ site.url}}/img{{ page.image5 }}">{% endif %}
+    {% if page.image6 %}<meta property="og:image" content="{{ site.url}}/img{{ page.image6 }}">{% endif %}
     <meta property="og:description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <!-- Bootstrap -->
