@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Cosplay Guests
-description: We're happy to welcome Miss Marquin and Sparkle Pipsi as this year's cosplay guests. Read more about them here.
 permalink: /cosplay-guests/
+description: We're happy to welcome Miss Marquin and Sparkle Pipsi as this year's cosplay guests. Read more about them here.
 image: /cosplay-guests/cosplay-guests-louisianime.jpg
 image1: /cosplay-guests/Jesse.jpg
 image2: /cosplay-guests/SparklePipsi_BioPhoto.png
@@ -22,5 +22,5 @@ image2: /cosplay-guests/SparklePipsi_BioPhoto.png
 	<a href="/img/cosplay-guests/SparklePipsi_BioPhoto.png" data-lightbox="Cosplay Image 1"><img class="img-responsive" src="/img/cosplay-guests/SparklePipsi_BioPhoto.png" alt="Sparkle Pipsi" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
 		<h3><a href="https://www.facebook.com/SparklePipsi">Sparkle Pipsi</a></h3>
 		Hailing from sunny Southern California, Sparkle Pipsi is a veteran cosplayer with over 10 years of experience creating and modeling costumes; she particularly loves dressing up as idols and magical girls! Always on the lookout for a new technical challenge, she has skills in sewing, prop and armor making, wig styling, and electronics. Pipsi has taken home several Master-class awards for her craftsmanship and presentations, both as an individual and as part of a group. As a panelist, she is excited to share her knowledge as a costume-maker with the attendees of Louisianime!
-</div>
+	</div>
 </div>
