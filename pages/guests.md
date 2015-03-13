@@ -3,7 +3,7 @@ layout: page
 title: Guest Biographies
 permalink: /guests/
 description: Learn all about the guests you'll meet at LouisiANIME 2015. Enjoy their unique panels and personalities as you get to hang out with them over the weekend.
-image: /guests/grelle_josh.jpg
+image: /meta/grelle_joshwide.png
 image1: /guests/Headshot_Clifford.jpg
 image2: /guests/Headshot_Fee.jpg
 ---

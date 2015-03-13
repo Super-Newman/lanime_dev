@@ -2,7 +2,7 @@
 layout: post
 title:  "Guests and Cosplay"
 date:   2015-02-15 08:00:00
-
+image: meta/grelle_joshwide.png
 ---
 
 <style>
