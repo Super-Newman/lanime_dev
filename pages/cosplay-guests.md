@@ -3,14 +3,21 @@ layout: page
 title: Cosplay Guests
 permalink: /cosplay-guests/
 description: We're happy to welcome Miss Marquin and Sparkle Pipsi as this year's cosplay guests. Read more about them here.
-image: /cosplay-guests/cosplay-guests-louisianime.jpg
-image1: /cosplay-guests/Jesse.jpg
-image2: /cosplay-guests/SparklePipsi_BioPhoto.png
+image: /meta/wide_jobiopic.jpg
+image1: /cosplay-guests/cosplay-guests-louisianime.jpg
 ---
 
 
 
 <div class="container">
+	<div class="row">
+	<a href="/img/cosplay-guests/jobiopic.jpg" data-lightbox="Cosplay Image 1"><img class="img-responsive" src="/img/cosplay-guests/jobiopic.jpg" alt="Envel" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
+		<h3><a href="https://www.facebook.com/envelscosplay">Envel</a></h3>
+		<p>Envel is a cosplay veteran of over a decade.  She has been cosplaying since 2002, competing since 2007, and judging since 2011. Having attended over 70 conventions, she has participated in or been in charge of dozens of panels, contests, and events. Envel loves any and all aspects of cosplay and with several awards under her belt she has tons of experience wig styling, sewing, and armor and prop making and can’t wait to share it!  Though the classics like Sailor Moon, Dragonball Z, Yu-Gi-Oh, and Digimon hold a special place in her heart she also adores the new generation of anime not limited to titles such as Kill la Kill, Sword Art Online, Love Live, and Psycho Pass.  From the old to the new, Envel’s love for anime and video games has been running strong for over twenty years, and there’s no foreseeable end in sight!</p>
+	</div>
+
+	<hr class="featurette-divider" />
+
 	<div class="row">
 	<a href="/img/cosplay-guests/Jesse.jpg" data-lightbox="Cosplay Image 1"><img class="img-responsive" src="/img/cosplay-guests/Jesse.jpg" alt="Miss Marquin" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
 		<h3><a href="https://www.facebook.com/MissMarquin">Miss Marquin</a></h3>
