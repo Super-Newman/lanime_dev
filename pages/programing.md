@@ -6,6 +6,18 @@ permalink: /programming/
 image: /gameshow.jpg
 ---
 
+<div class="container">
+	<div class="row">
+	<a href="/img/pages/prgm/queendbio.jpg" data-lightbox="Cosplay Image 1"><img class="img-responsive" src="/img/pages/prgm/queendbio.jpg" alt="Envel" width="200" height="400" style="border:5px solid yellow; float:left; margin:10px;"></a>
+		<h3><a href="https://www.facebook.com/officialCountD">Cosplay and Gameshow MC: Queen D</a></h3>
+		<p>Queen D is a 10 year seasoned cosplayer, model, entertainer, and glitter enthusiast. Known for his over the top costumes, and eccentric personality, This self proclaimed crossplay queen of the South hails from deep within the swamps of Louisiana! He has been emceeing cosplay events for over Five years now, having just started out hosting dating games at conventions. Over the years he has picked up various skills which he is excited to share with all the Attendees of LouisiAnime!</p>
+
+		<p>D's recent adventure involves him being the star of his own wilsly unpopular Web Series, The D~List, along with other cosplayers! Be sure to check out his fan page at: www./facebook.com/officialCountD for more information on him, and his web series!</p>
+
+		<p>D is so thankful to be a part of LouisiAnime, where he will be Emceeing the cosplay competition! So, if you wanna see some beautiful costumes and have a laugh or two. Be sure to attend!!</p>
+	</div>
+</div>
+
 ##Steampunk Soiree
 Come join us again for our annual Steampunk Soiree.  Every year we do things a little bit differently, and this year is no exception.  The Soiree consists of a combination of steampunk related instructional programming followed by a dance with thematically appropriate music.  The Soiree is welcome to all, not just those in Steampunk attire.
 
