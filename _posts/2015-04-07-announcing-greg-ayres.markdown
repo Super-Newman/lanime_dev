@@ -10,7 +10,7 @@ image: /meta/greg_ayres_wide.jpg
 <div class="container">
 	<div class="row">
 		<a name="GregAyres"></a>
-		<a href="/img/guests/greg_ayres.jpg" data-lightbox="guests"><img class="img-responsive" src="/img/guests/greg_ayres.jpg" alt="Josh Grelle" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
+		<a href="/img/guests/greg_ayres.jpg" data-lightbox="guests"><img class="img-responsive" src="/img/guests/greg_ayres.jpg" alt="Greg Ayres" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
 
 		<h3>Greg Ayres</h3>
 

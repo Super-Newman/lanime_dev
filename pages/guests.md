@@ -9,8 +9,20 @@ image: /meta/greg_ayres_wide.jpg
 
 <div class="container">
 	<div class="row">
+		<a name="EricCherry"></a>
+		<a href="/img/guests/eric_cherry.jpg" data-lightbox="guests"><img class="img-responsive" src="/img/guests/eric_cherry.jpg" alt="Eric Cherry" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
+
+		<h3>Eric Cherry</h3>
+
+		<p>Eric, or “Cherry” as many of us know him as, has been a major part of the anime community in Central Texas since the beginning of the new millenium. As a stage actor out of high school, he quickly became involved in multiple cosplay performance groups in North Texas, winning multiple events at A­Kon and Animefest in Dallas. This passion for anime and a gregarious personality lead to his meeting with and auditioning at FUNimation Entertainment.</p>
+
+		<p>In that time, Eric has been in more than 23 series. He can be heard in FUNimations newest series, Assassination Classroom as Takuya Muramatsu ​along with parts in Ben­To and Space Dandy and the international hit series, Attack on Titan. He has also been in many fan favorites such as: Fairy Tail, KenIchi the Mightiest Disciple, Initial D and One Piece to name a few.</p>
+	</div>
+<!--Guest -->
+	<hr class="featurette-divider">
+	<div class="row">
 		<a name="GregAyres"></a>
-		<a href="/img/guests/greg_ayres.jpg" data-lightbox="guests"><img class="img-responsive" src="/img/guests/greg_ayres.jpg" alt="Josh Grelle" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
+		<a href="/img/guests/greg_ayres.jpg" data-lightbox="guests"><img class="img-responsive" src="/img/guests/greg_ayres.jpg" alt="Greg Ayres" width="300" height="600" style="border:5px solid yellow; float:left; margin:10px;"></a>
 
 		<h3>Greg Ayres</h3>
 
